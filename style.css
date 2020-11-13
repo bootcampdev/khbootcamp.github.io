@@ -1,0 +1,78 @@
+html,
+body,
+header,
+.main-view {
+  height: 100%;
+}
+/* .main-body {
+    background-image: url("http://www.pngmart.com/files/7/Abstract-Lines-PNG-Background-Image.png");
+} */
+
+.navbar-brand {
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+
+.navbar-custom {
+    background-color: lightgray;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+
+  .me-pic-desc {
+    display: flex;
+    align-items: flex-start;
+  }
+/* #footer {
+    position: absolute;
+    margin-top: 90px;    
+    height: 40px;
+    clear: both;
+    background-color: gray;
+    width: 100%;
+  } */
+
+  .portfolio-img {
+    float: left;
+    width: 33.33%;
+    max-height: 350px;
+    max-width: 350px;
+    margin-bottom: 10px;    
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: gray;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: lightseagreen;
+    border-top-width: 4px;
+ }
+
+
+
+
+  /* @media (max-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    } */
