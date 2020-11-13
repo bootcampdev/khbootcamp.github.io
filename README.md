@@ -7,7 +7,7 @@ A working website containing a portfolio of my work in DevOps and beyond.  This 
 ~~~
  - Fix background on portfolio page
  - Fix images on protfolio page
- - Work on Navbar with unorder list items to the right and display hamburger button
+ - Work on Navbar with un-ordered list items to the right and display hamburger button
  - Include updated images and description
 ~~~
 
@@ -19,4 +19,6 @@ v1.0 7/14/2020
 
 ## Site URL
 ~~~
+This is a public site.
+https://bootcampdev.github.io/kihBootCamp.github.io/
 ~~~
