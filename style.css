@@ -1,7 +1,6 @@
 html,
 body,
-header,
-.main-view {
+header {
   height: 100%;
 }
 
@@ -22,8 +21,9 @@ header,
   }
 
   .main-view {
-    background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
-    background-repeat: no-repeat; background-size: cover; background-position: center;
+    background: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg') no-repeat center center fixed;
+    overflow: visible;
+    background-size: cover; 
   }
 
   h1 {
