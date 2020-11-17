@@ -24,6 +24,7 @@ header {
     background: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg') no-repeat center center fixed;
     overflow: visible;
     background-size: cover; 
+    height: inherit;
   }
 
   h1 {
