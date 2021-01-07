@@ -1,26 +1,24 @@
-# About Me Portfolio - Responsive Portfolio HWk 2
+# About Me Portfolio
 
-# khbootcamp.github.io
+# kimberley-heuer.github.io
 
 A working website containing a portfolio of my work in DevOps and beyond.  This is work in progress and this site will be updated regularly.  
 
 ## About Me Portfolio - To Do's
 ~~~
- - Fix background on portfolio page
- - Fix images on protfolio page
- - Work on Navbar with un-ordered list items to the right and display hamburger button
- - Include updated images and description
- - Update and transfer styles to CSS
+ - Changed background, layout and color schemes
+ - Added recent Project 1 and two other homework assignments
+ - Created link to my Linked-in projfle
+ - Update CSS
 ~~~
 
-## Revisions
-~~~
-v1.0 7/14/2020
- - Initial submission
-~~~
+
 
 ## Site URL
-~~~
-This is a public site.
-https://bootcampdev.github.io/kihBootCamp.github.io/
-~~~
+
+[Kimberley Heuer]https://bootcampdev.github.io/kimberley-heuer.github.io/
+
+## Site Repository
+[GitHub for Kimberley Heuer]https://github.com/bootcampdev/kimberley-heuer.github.io
+
+
