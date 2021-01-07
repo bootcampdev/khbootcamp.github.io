@@ -61,6 +61,7 @@ header {
     border-radius: 5%;
     justify-content: center;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   /* .portfolio-img {
@@ -75,6 +76,16 @@ header {
     float: left;
     height: 60%;
     max-width: 100%;  
+    border-right: green;
+  }
+
+  a:link, a:visited {
+    color: purple;
+  }
+
+  .portfolio-desc {
+    border-left: double;
+    border-left-color: #585858;
   }
 
   .portfolio-details {
@@ -87,7 +98,7 @@ header {
 
   .vl {
     border-right: 1px solid #585858;
-    height: 225px;
+    height: 230px;
     
   }
 
@@ -112,10 +123,17 @@ header {
     border-top-style: solid;
     border-top-color: #585858;
     border-top-width: 4px;
+    height: 50px;
  }
 
 
+ @media (max-width:767px) {
 
+  .portfolio-desc
+  {
+    border:0px solid !important
+    }
+  }
 
   /* @media (max-width: 768px) {
     .navbar-brand.abs
