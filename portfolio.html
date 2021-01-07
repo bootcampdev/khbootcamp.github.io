@@ -10,15 +10,15 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 
-    <title>Portfolio</title>
+    <title>Heuer-Portfolio</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-light  navbar-custom">
         <!--d-flex justify-content-end-->
-        <a class="navbar-brand text-white" style="padding-left: 5px; padding-right: 5px;" href="index.html">Kimberley Heuer</a>
+        <a class="navbar-brand text-black" style="padding-left: 5px; padding-right: 5px;" href="index.html">Kimberley Heuer</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -26,14 +26,25 @@
 
         <div class="nav ">
             <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About-Me!</a>
-                </li>
                 <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>               
+                <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
+                </li>                
+            </ul>
+        </div>
+
+        <div class="navbar-collapse collapse w-300 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://www.linkedin.com/in/kimberley-heuer">Linked-In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Single-Page</a>
                 </li>
             </ul>
         </div>
@@ -48,14 +59,72 @@
                     <h1 class="h1-responsive font-weight-bold mt-sm-5">Portfolio</h1>
                     <hr class="hr-light">
 
-                    <div class="row" style="justify-content: center; margin-bottom: inherit;">
+                    <!-- Beer Gourmet -->
+                    <div class="row portfolio-row" style="justify-content: center; margin-bottom: inherit;">
                         <div class="col-md-6 mb-5 portfolio-img">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Petaurus_breviceps-Cayley.jpg/220px-Petaurus_breviceps-Cayley.jpg" alt="portfolio 1-1" class="img-fluid">
+                            <img src="./images/beer-gourrmet.JPG" alt="Beer Gourmet" class="img-fluid">
+
+                            <div class="row portfolio-details">
+                                <div class="col-md-12 mb-12 portfolio-img">
+                                <a  href="https://jenryval.github.io/Beer-Gourmet/">Beer Gourmet Site</a><br/>
+                                <a  href="https://github.com/jenryval/Beer-Gourmet">Beer Gourmet Repository</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 portfolio-img">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Petaurus_breviceps-Cayley.jpg/220px-Petaurus_breviceps-Cayley.jpg" alt="portfoloio 1-2" class="img-fluid">
+                        <div class="col-md-1 vl"></div>
+                        <div class="col-md-5 ">
+                            <p><span style="font-weight: 500;">Weather Dashboard</span><br/>
+                                <span>Thirsty and hungry? Look no further than this site to select any beer with a foodie side! Search for your favorite beers from a selection of malts, hops or flavors. Hungry, no problem.  A food-side is provided including the resturant venue</span>
+                            </p>
                         </div>
                     </div>
+                    <!-- eof Beer Gourmet -->
+
+                    <!-- Weather Dashboard -->
+                    <div class="row portfolio-row" style="justify-content: center; margin-bottom: inherit;">
+                        <div class="col-md-6 mb-5 portfolio-img">
+                            <img src="./images/weather-dashboard.JPG" alt="Weather Dashboard" class="img-fluid">
+
+                            <div class="row portfolio-details">
+                                <div class="col-md-12 mb-12 portfolio-img">
+                                <a  href="https://bootcampdev.github.io/weather-dashboard/">Weather Dashboard Site</a><br/>
+                                <a  href="https://github.com/bootcampdev/weather-dashboard">Weather Dashboard Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 vl"></div>
+                        <div class="col-md-5 ">
+                            <p><span style="font-weight: 500;">Weather Dashboard</span><br/>
+                                <span>The Weather Dashboard demostrates the use of the OpenWeather API to fetch the current and forecasted weather for the city selected.  The last city searched is saved in local storage.  CSS is dynamically updated to show weather conditions with a representative icons.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- eof Weather Dashboard -->
+
+                    <!-- Coding Quiz -->
+                    <div class="row portfolio-row" style="justify-content: center; margin-bottom: inherit;">
+                        <div class="col-md-6 mb-5 portfolio-img">
+                            <img src="./images/coding-quiz.JPG" alt="Coding Quiz" class="img-fluid">
+
+                            <div class="row portfolio-details">
+                                <div class="col-md-12 mb-12 portfolio-img">
+                                <a  href="https://bootcampdev.github.io/code-quiz-challenge/">Coding Quiz Site</a><br/>
+                                <a  href="https://github.com/bootcampdev/code-quiz-challenge">Coding Quiz Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 vl"></div>
+                        <div class="col-md-5">
+                            <p><span style="font-weight: 500;">Code Quiz Challenge</span><br/>
+                                <span>Test your Javascript knowledge with this timed quiz and assessment! Every wrong answer cost you 10 seconds and is deducted from the timer.  Hurry answer before you run out of time.  Score is kept to check your improvements.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- eof Coding Quiz -->
+                    
+                   
+
+
 
                     <div class="row" style="justify-content: center; margin-bottom: inherit;">
                         <div class="col-md-6 mb-5 portfolio-img">

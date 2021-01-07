@@ -1,0 +1,128 @@
+html,
+body,
+header {
+  height: 100%;
+}
+
+.navbar-brand {
+    /* background-color: lightseagreen; */
+    color: #cccccd;
+}
+
+.navbar-custom {
+    /* background-color:  #aca4a8; */
+    /* background-color: F4F4F4; */
+    opacity: 0.9;
+    /* background: transparent; */
+    /* border: 1px solid; */
+    padding: 5px;
+    box-shadow: 5px 4px #948c90;
+}
+
+
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+  }
+
+  .main-view {
+    /* background: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg') no-repeat center center fixed; */
+    background-image: url("../images/background3.jpg") ;
+    overflow: visible;
+    background-size: cover; 
+    height: inherit;
+  }
+
+  h1 {
+    color: #585858;
+  }
+
+  .target-box {
+    /* background-color: #e4e6e7; */
+    opacity: 0.9;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .me-pic {
+    max-height: 300px;
+    border-radius: 10%;
+  }
+  .me-pic-desc {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .portfolio-row {
+    background-color: lightgray;
+    border-radius: 5%;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  /* .portfolio-img {
+    float: left;
+    width: 33.33%;
+    max-height: 350px;
+    max-width: 350px;
+    margin-bottom: 10px;    
+  } */
+
+  .portfolio-img {
+    float: left;
+    height: 60%;
+    max-width: 100%;  
+  }
+
+  .portfolio-details {
+    background-color: lightgray;
+    border-radius: 5%;
+    padding-top: 5px;
+    margin-top: 20px;
+  }
+
+
+  .vl {
+    border-right: 1px solid #585858;
+    height: 225px;
+    
+  }
+
+  p span {
+    display: block;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #948c90;;
+    color:  #948c90;;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #585858;
+    border-top-width: 4px;
+ }
+
+
+
+
+  /* @media (max-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+    } */
