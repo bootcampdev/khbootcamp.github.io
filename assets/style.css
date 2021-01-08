@@ -85,7 +85,7 @@ header {
 
   .portfolio-desc {
     border-left: double;
-    border-left-color: #585858;
+    border-left-color: #948C90;
   }
 
   .portfolio-details {
@@ -93,13 +93,6 @@ header {
     border-radius: 5%;
     padding-top: 5px;
     margin-top: 20px;
-  }
-
-
-  .vl {
-    border-right: 1px solid #585858;
-    height: 230px;
-    
   }
 
   p span {
