@@ -52,6 +52,7 @@ header {
     border-radius: 10%;
     float:left
   }
+
   .me-pic-desc {
     display: flex;
     align-items: flex-start;
@@ -117,7 +118,7 @@ header {
     border-top-style: solid;
     border-top-color: #585858;
     border-top-width: 4px;
-    height: 50px;
+    height: 55px;
  }
 
 
